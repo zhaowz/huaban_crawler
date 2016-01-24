@@ -12,7 +12,7 @@ class huabanCrawler():
         self.homeUrl="http://www.ubsshows.com/page/"
         self.times=[]
         self.curPage=1
-        self.goalPage=goalPagea
+        self.goalPage=goalPage
         self.downK=0
         if not os.path.exists('./images'):
             os.mkdir('./images')
